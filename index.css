@@ -1,0 +1,136 @@
+body{
+     background-image: url('background.png');
+     background-size: 14.25in 6.85in;
+}    
+      
+#start {
+     margin-top: 400px;
+     background-color: #146eff;
+     border-radius: 5px;
+     border-color: #146eff;
+     width: 190px;
+     height: 50px;
+     color: white;
+     font-family: 'Comfortaa', cursive;
+     font-size: 20px;
+     margin-left: 890px;
+}
+
+#start:hover {
+	cursor: pointer;
+	background-color: #004cc7;
+	border-color: 004cc7;
+
+}
+
+.menu {
+	list-style: none;
+	font-size: 22px;
+	position: fixed;
+	font-family: 'Barlow Condensed', sans-serif;
+	margin-top: 7px;
+	right: 36px;
+	z-index: 50;
+	cursor: pointer;
+}
+
+.links {
+	float: left;
+	color: rgb(0, 0, 0);
+	padding-top: 1px;
+	padding-right: 9px;
+	padding-bottom: 5px;
+	padding-left: 9px;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 27px;
+
+}
+
+.links:hover {
+	background-color: #ffffff;
+	color: black;
+	font-size: 30px;
+	
+}
+
+.links:hover + .hide{
+	display:block;
+}
+
+
+a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+
+
+
+.hide{
+	display: none;
+}
+#text{
+	background-color: white;
+	width: max-content;
+	margin-left: 1055px;
+	margin-top: -400px;
+}
+
+.tooltip .tooltiptext  {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	margin-top: 45px;
+	margin-left: -125px;
+	position:absolute;
+	z-index: 1;
+   }
+
+.tooltiptext{
+	   font-size: 17px;
+   }
+   
+   .tooltip:hover .tooltiptext  {
+	visibility: visible;
+   }
+
+
+
+
+
+
+
+   #text2{
+	background-color: white;
+	width: max-content;
+	margin-left: 900px;
+	margin-top: -400px;
+}
+
+.tooltip2 .tooltiptext2  {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	margin-top: 45px;
+	margin-left: -135px;
+	position:absolute;
+	z-index: 1;
+   }
+
+
+
+   .tooltiptext2{
+	   font-size: 17px;
+   }
+   
+   .tooltip2:hover .tooltiptext2  {
+	visibility: visible;
+   }
